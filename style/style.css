@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background-color: #312f2f;
+  padding: 1rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #c4c4c4;
+  margin: 1rem;
+  font-size: 1.25rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+nav ul li a i {
+  font-size: 1.75rem;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
